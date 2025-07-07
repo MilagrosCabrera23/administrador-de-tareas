@@ -1,0 +1,12 @@
+
+.text-list{
+  font-size:var(--font-size-titulo);
+  font-weight: bold;
+  color:var(--color-primario);
+}
+.subtitle-list{
+  font-size:var(--font-size-parrafo);
+  font-family:var(--fuente-parrafo); 
+  text-align:center;
+  color:var(--color-texto);
+}

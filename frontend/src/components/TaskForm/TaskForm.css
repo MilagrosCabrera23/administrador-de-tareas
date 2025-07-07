@@ -1,0 +1,72 @@
+.form-title{
+  font-size:var(--font-size-titulo);
+  font-weight: bold;
+  color:var(--color-primario);
+}
+
+.form-description {
+  font-size:var(--font-size-parrafo);
+  font-family:var(--fuente-parrafo); 
+  text-align:center;
+  color:var(--color-texto);
+}
+
+.task-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 0.95rem;
+}
+
+.form-check {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+.titles-form{
+  color: var(--color-secundario);
+  font-family: var(--fuente-titulo);
+  font-size: 1rem;
+  align-items: center;
+  font-weight: 600;
+}
+
+.btn-enviar{
+  background-color: var(--color-terciario);
+  color:var(--background);
+  font-family: var(--fuente-titulo);
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.btn-cancelar{
+  background-color:darkred;
+  color:var(--background);
+  font-family: var(--fuente-titulo);
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}

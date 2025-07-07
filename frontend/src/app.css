@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width:75rem;
+  box-sizing: border-box;
+}
+
+ :root {
+  /* Colores */
+   --background:white; 
+  --color-primario: #0CABA8;
+  --color-secundario: #008F8C;
+  --color-terciario:#015958; 
+  --color-texto: #023535;
+  --color-boton-secundario: #023535;
+
+  /* Tipografías */
+  --fuente-titulo: "Poppins", sans-serif;
+  --fuente-parrafo:"Roboto", sans-serif;
+
+  /* Tamaños */
+  --font-size-titulo: 2rem;
+  --font-size-parrafo: 1rem;
+}
